@@ -1,5 +1,7 @@
+/*Built from BootStrap Album example*/
 body {
   min-height: 75rem; /* Can be removed; just added for demo purposes */
+  position: relative;
 }
 
 .navbar {
@@ -37,7 +39,7 @@ body {
   padding-top: 6rem;
   padding-bottom: 6rem;
   margin-bottom: 0;
-  background-color: #fff;
+  background-color: #f7f7f7;
 }
 
 .jumbotron p:last-child {
@@ -87,14 +89,14 @@ footer p {
 }
 
 #skills {
-  background-color: #fff;
+  background-color: #f7f7f7;
     padding-top: 3rem;
   padding-bottom: 3rem;
   font-size: .8em;
 }
 
 #projects {
-  background-color: #f7f7f7;
+  background-color: #fff;
 
 }
 
@@ -107,3 +109,8 @@ footer p {
   display: block;
   text-align: right;
 }
+
+.active{
+  background-color: black;
+}
+
