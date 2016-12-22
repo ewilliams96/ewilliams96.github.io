@@ -1,0 +1,44 @@
+/*
+http://stackoverflow.com/questions/32793370/bootstrap-make-image-hover-caption-responsive
+https://jsfiddle.net/59t45dev/
+*/
+  
+
+.clear-L-R {   
+    padding-left:0px;
+    padding-right: 0px;
+}     
+
+.caption{
+    cursor: pointer;
+    position: absolute;
+    top:0;
+    height:100%;
+    background-color: rgba(0,0,0,0.65);
+    opacity: 0;
+    -webkit-transition:all 0.45s ease-in-out;
+    -moz-transition:all 0.45s ease-in-out;
+    -o-transition:all 0.45s ease-in-out;
+    -ms-transition:all 0.45s ease-in-out;
+    transition:all 0.45s ease-in-out;
+}
+.caption:hover{
+    opacity: 1;
+}
+.caption-text h1{
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+.caption-text{
+    color: #fff;
+    text-align: center;
+    font-weight:200;
+    font-size: 0.8em;
+}  
+
+.img-fluid{
+    width: auto;
+    min-height: 200px;
+}
+
+
