@@ -52,6 +52,8 @@ body {
   max-width: 40rem;
 }
 
+
+
 .album {
   min-height: 50rem; /* Can be removed; just added for demo purposes */
   padding-top: 3rem;
@@ -82,4 +84,26 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
+}
+
+#skills {
+  background-color: #fff;
+    padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-size: .8em;
+}
+
+#projects {
+  background-color: #f7f7f7;
+
+}
+
+#skills ul{
+  border-right-width: 1em;
+  border-color:black;
+}
+
+.skillss li span{
+  display: block;
+  text-align: right;
 }
