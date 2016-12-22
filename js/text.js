@@ -16,3 +16,10 @@ $(function () {
   type_text("Hi, I'm Elizabeth!", "#greeting", 0, 300);    
  
 }); 
+
+function expand(){
+    console.log("d")
+    $('#about').css("opacity", 1);
+    $('#about').css("height", "auto");
+    $('#expand').css("display", "none");
+}

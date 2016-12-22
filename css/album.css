@@ -110,7 +110,10 @@ footer p {
   text-align: right;
 }
 
-.active{
-  background-color: black;
+#about{
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: opacity 1s ease-out;
 }
 

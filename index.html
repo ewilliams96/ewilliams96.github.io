@@ -16,6 +16,8 @@
 
     <!-- Custom styles for this template -->
     <link href="../../css/album.css" rel="stylesheet">
+    
+    
   </head>
 
   <body>
@@ -25,7 +27,7 @@
       <a class="navbar-brand" href="#home">Elizabeth Williams</a>
       <a class="nav-item nav-link" href="#projects">Projects</a>
       <a class="nav-item nav-link" href="#skills">Skills</a>
-      <a class="nav-item nav-link" href="#">Resume</a>
+      <a class="nav-item nav-link" href="resume.pdf">Resume</a>
     </div>
   </nav>
 
@@ -33,14 +35,12 @@
     <section id="home" class="jumbotron text-xs-center">
       <div class="container">
         <h1 id="greeting" class="jumbotron-heading"><span id="text_target"></span></h1>
-        <p class="lead text-muted" id="about">I'm currently a junior at Stony Brook University, where I study Computer Science and Applied Math. 
-          <br>
-          I've dabbled in full-stack web development, data visualization, mobile apps, 2d games, and teaching.  <br>
-          
-        <p>
-          <a href="#" class="btn btn-primary">Main call to action</a>
-          <a href="#" class="btn btn-secondary">Secondary action</a>
-        </p>
+        <p class="lead text-muted">I'm currently a junior at Stony Brook University, where I study Computer Science and Applied Math.</p>
+        <div id="about">
+          <p class="lead text-muted">I started programming 2 years ago, and since then I've dabbled in full-stack web development, data visualization, mobile apps, 2d games, and teaching. Some interests I'd like to pursue further are data science and game development. I also think graphs are pretty fun. </p>
+          <p class="lead text-muted">I also enjoy eating food, playing video games,  reading books, and playing ukulele.</p>
+        </div>
+        <a id="expand" href="#" onclick="expand()"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></a>
       </div>
     </section>
 
@@ -164,6 +164,7 @@
     <script src="../../bootstrap/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="https://use.fontawesome.com/0717d11607.js"></script>
     <script src="../../js/scroll.js"></script>
     <script src="../../js/text.js"></script>
 
