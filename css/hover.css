@@ -29,6 +29,10 @@ https://jsfiddle.net/59t45dev/
     text-transform: uppercase;
     font-size: 1.2em;
 }
+
+.caption-text a{
+    color: #99ccff
+}
 .caption-text{
     color: #fff;
     text-align: center;
@@ -38,7 +42,10 @@ https://jsfiddle.net/59t45dev/
 
 .img-fluid{
     width: auto;
-    min-height: 200px;
+    min-height: 230px;
+    max-height: 500px;
 }
+
+
 
 

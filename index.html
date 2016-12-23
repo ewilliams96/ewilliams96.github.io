@@ -27,13 +27,13 @@
 
   <nav id="navbr" class="navbar navbar-fixed-top navbar-light bg-faded">
     <div class="nav navbar-nav">
-      <a class="navbar-brand" href="#home">Elizabeth Williams</a>
+      <a class="navbar-brand" href="#home"><i class="fa fa-home" aria-hidden="true"></i></a>
       <a class="nav-item nav-link" href="#projects">Projects</a>
       <a class="nav-item nav-link" href="#skills">Skills</a>
-      <a class="nav-item nav-link" href="resume.pdf">Resume</a>
+      <a class="nav-item nav-link" href="../../resources/resume.pdf">Resume</a>
 
-      <a class="nav-item nav-link float-xs-right" href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
-      <a class="nav-item nav-link float-xs-right" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      <a class="nav-item nav-link float-xs-right" href="https://github.com/ewilliams96/"><i class="fa fa-github" aria-hidden="true"></i></a>
+      <a class="nav-item nav-link float-xs-right" href="https://www.linkedin.com/in/elizabeth-williams-116860102"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
     </div>
   </nav>
 
@@ -42,148 +42,105 @@
       <div class="container">
         <h1 id="greeting" class="jumbotron-heading"><span id="text_target"></span></h1>
         <p class="lead text-muted">I'm currently a junior at Stony Brook University, where I study Computer Science and Applied Math.</p>
+        <a id="expand" href="#" onclick="expand()"><i id="ex" class="fa fa-plus fa-2x" aria-hidden="true"></i></a>
         <div id="about">
           <p class="lead text-muted">I started programming 2 years ago, and since then I've dabbled in full-stack web development, data visualization, mobile apps, 2d games, and teaching. Some interests I'd like to pursue further are data science and game development. I also think graphs are pretty fun. </p>
           <p class="lead text-muted">I also enjoy eating food, playing video games,  reading books, and playing ukulele.</p>
 
-          <p class="lead text-muted">I can be contacted at elizabeth.williams.1 at stonybrook.edu. Thanks for visiting! <i class="fa fa-smile-o" aria-hidden="true"></i>
+          <p class="lead text-muted">I can be contacted at elizabeth.williams.1@stonybrook.edu. Thanks for visiting! <i class="fa fa-smile-o" aria-hidden="true"></i>
         </div>
-        <a id="expand" href="#" onclick="expand()"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></a>
+        
       </div>
     </section>
 
     <section id="projects" class="album jumbotron">
       <div class="container">
         <h2 class="jumbotron-heading text-xs-center">Projects</h2>
-        <div class="row row-eq-height">
+        <br>
+        <div class="row">
+          <div class="col-sm-6 col-xs-12 clear-L-R">
+              <img src="resources/pkmndata.png" class="img-fluid clear-L-R" alt="">
+              <div class="col-xs-12 caption caption-text">
+                  <h1>Pokemon Data Visualizations</h1>
+                  <p>
+                    <i>D3.js, scikit-learn</i><br>
+                    Labs for visualization. Includes an interactive histogram, multivariate data displays, brushing and linking, and some data processing.
+                    <hr>
+                    Github: <a href="https://github.com/ewilliams96/pokemon-barchart-d3/">Histogram</a>, <a href="https://github.com/ewilliams96/pkmn-data-visualizations">Multivariate Displays</a>, <a href="https://github.com/ewilliams96/pkmn-data-dashboard">Brushing</a>
+                  </p>
+              </div>
+          </div>
 
-
-        <div class="col-sm-6 col-xs-12 clear-L-R">
-            <img src="resources/pkmndata.png" class="img-fluid clear-L-R" alt="">
-            <div class="col-xs-12 caption caption-text">
-                <h1>Pokemon Data Visualizations</h1>
-                <p>
-                  Fall 2016 <br>
-                  <i>D3.js, scikit-learn</i><br>
-                  Labs for visualization. Includes an interactive histogram, multivariate data displays, brushing and linking, and some data processing.
+          <div class="col-sm-6 col-xs-12 clear-L-R align-middle">
+              <img src="resources/bamboozled.png" class="img-fluid" alt="">
+              <div class="col-xs-12 caption caption-text align-middle">
+                  <h1>Bamboozled</h1>
+                  <p>
+                    Fall 2016<br>
+                    <i>Flask, MySQL, Bootstrap</i><br>
+                    
+                    Social network with online shopping capabilities. Website has a view for general users, general employees, and managers.
+                    Databases course project.
+                    <hr>
+                    <a href="https://github.com/ewilliams96/305_WebApp">GitHub</a> - 
+                    <a href="../../resources/userguide.pdf">User Guide</a>
+                    
+                  </p>
                   
-                </p>
-            </div>
-        </div>
-
-        <div class="col-sm-6 col-xs-12 clear-L-R align-middle">
-            <img src="resources/bamboozled.png" class="img-fluid" alt="">
-            <div class="col-xs-12 caption caption-text align-middle">
-                <h1>Bamboozled</h1>
-                <p>
-                  Fall 2016<br>
-                  <i>Flask, MySQL, Bootstrap</i><br>
-                  
-                  Social Networking website with online shopping capabilities. Website has a view for general users, general employees, and managers.
-                  Databases course project.
-                  <hr>
-                  
-                </p>
-                <span class="align-bottom">Repo User Guide</span>
-            </div>
-        </div>
-
-        <div class="col-sm-6 col-xs-12 clear-L-R">
-            <img src="resources/pup.png" class="img-fluid" alt="">
-            <div class="col-xs-12 caption caption-text">
-                <h1>Pup Scouter</h1>
-                <p>
-                  September 2016 <br>
-                  <i>Flask, Reddit API, Clarifai API</i><br>
-                  This mental health themed app finds you comforting dog images and compose captions. Won Most Original at HackHealth Fall 2016, and featured by Clarifai on social media.<br>
-                  <hr>
-                  Devpost Github Demo
-                </p>
-            </div>
-        </div>
-
-        <div class="col-sm-6 col-xs-12 clear-L-R">
-            <img src="resources/paz2.png" class="img-fluid" alt="">
-            <div class="col-xs-12 caption caption-text">
-                <h1>Paz 2</h1>
-                <p>
-                  <i>Python, Pyglet</i><br>
-                  April 2016<br>
-                  Roguelike RPG. Move on a tile based map to encounter wild animals and engage in battle. You must hunt for survival, or else your health will deplete leading to death. Made at HackRU.<br>
-                  <hr>
-                  Devpost Github
-                </p>
-            </div>
-        </div>
-
-          <!--<div class="card col-xs-12 col-md-6">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap" class="img-fluid" alt="Card image cap">
-            <div class="card-text">
-              <h3>Pokemon Data Visualizations</h3>
-              <i>D3.js, scikit-learn</i><br>
-              Repo Demo1 Demo2 Demo3
-            </div>
-          </div>
-          <div class="card col-xs-12 col-md-6">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap" class="img-fluid" alt="Card image cap">
-            <div class="card-text">
-              <h3>Bamboozled</h3>
-              <i>Flask, MySQL, Bootstrap</i><br>
-              Repo User Guide
-            </div>
-          </div>
-          <div class="card col-xs-12 col-md-6">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <div class="card-text">
-              <h3>Pup Scouter</h3>
-              <i>Flask, Reddit API, Clarifai API</i><br>
-              Repo Demo DevPost
-            </div>
-          </div>
-          <div class="card col-xs-12 col-md-6">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <div class="card-text">
-              <h3>Paz2</h3>
-              <i>Python, Pyglet</i><br>
-              Repo DevPost
-            </div>
-          </div>
-          <div class="card col-xs-12 col-md-6">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <div class="card-text">
-              <h3>Matrix Calculator</h3>
-              <i>Android</i><br>
-              Repo APK<br>
-            </div>
-          </div>
-          <div class="card col-xs-12 col-md-6">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <div class="card-text">
-              <h3>CryptCoin</h3>
-              <i>Java</i><br>
-              CSE 260 Course Project.
-            </div>
+              </div>
           </div>
 
-          <div class="card col-xs-12 col-md-6">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <div class="card-text">
-              <h3>Tic Tac Toe</h3>
-              <i>JavaScript</i><br>
-              Repo Demo<br>
-            </div>
-          </div>
-          <div class="card col-xs-12 col-md-6">
-            <img data-src="holder.js/100px280/thumb" alt="Card image cap">
-            <div class="card-text">
-              <h3>IamHere Map</h3>
-              <i>Leaflet</i><br>
-              Repo Blog Post
-            </div>
-          </div>-->
+          <div class="col-sm-6 col-xs-12 clear-L-R">
+              <img src="resources/pup.png" class="img-fluid" alt="">
+              <div class="col-xs-12 caption caption-text">
+                  <h1>Pup Scouter</h1>
+                  <p>
+                    <i>Flask, Reddit API, Clarifai API</i><br>
+                    This mental health themed app finds you comforting dog images and compose captions. Won Most Original at HackHealth Fall 2016, and featured by Clarifai on social media.<br>
+                    <hr>
+                    <a href="http://devpost.com/software/pupper-scouter">Devpost</a> - <a href="https://github.com/ewilliams96/Hack_Health_Pupper_App">GitHub</a> - <a href=" https://secret-hollows-62864.herokuapp.com/">Demo</a>
 
-          
-          
+                  </p>
+              </div>
+          </div>
+
+          <div class="col-sm-6 col-xs-12 clear-L-R">
+              <img src="resources/paz2.png" class="img-fluid" alt="">
+              <div class="col-xs-12 caption caption-text">
+                  <h1>Paz 2</h1>
+                  <p>
+                    <i>Python, Pyglet</i><br>
+                    Roguelike RPG. Move on a tile based map to encounter wild animals and engage in battle. You must hunt for survival, or else your health will deplete leading to death.  We programmed tile rendering, movement, collisions, and two distinct game states.  Made at HackRU.<br>
+                    <hr>
+                    <a href="https://devpost.com/software/paz2-ys79v8">Devpost</a> - <a href="https://github.com/ewilliams96/paz2">GitHub</a>
+                  </p>
+              </div>
+          </div> 
+
+           <div class="col-sm-6 col-xs-12 clear-L-R">
+              <img src="resources/matrix.png" class="img-fluid" alt="">
+              <div class="col-xs-12 caption caption-text">
+                  <h1>Matrix Calculator</h1>
+                  <p>
+                    <i>Android</i><br>
+                    Android Application for basic operations on n by n matrices of reasonable size. Can perform operations such as matrix addition, subtraction, multiplication, scalar multiplication, and transposition.<br>
+                    <hr>
+                    <a href="https://github.com/ewilliams96/matrix-calculator">GitHub</a>
+                  </p>
+              </div>
+          </div> 
+
+           <div class="col-sm-6 col-xs-12 clear-L-R">
+              <img src="resources/cryptcoin.jpg" class="img-fluid" alt="">
+              <div class="col-xs-12 caption caption-text">
+                  <h1>CryptCoin</h1>
+                  <p>
+                    <i>Java</i><br>
+                    CSE 260 course project. Implements a the CryptCoin cryptocurrency protocol, which involves constantly receiving block and transaction data that must be validated while simultaneously using the most recent form of the data to quickly push blocks onto the block chain. To implement this, I came up with data structures to represent the block chain while taking advantage of serialization, and used multiple threads to mine blocks. 
+                  </p>
+              </div>
+          </div> 
+
         </div>
       </div>
     </section>
@@ -192,8 +149,6 @@
       <div class="container">
         <h2 class="jumbotron-heading text-xs-center">Skills & Experience</h2>
         <div class="row">
-        
-
           <div class="col-xs-12">
             <h4 class="jumbotron-heading">Experience</h3>
             <ul>
@@ -201,12 +156,10 @@
               <li><a href="http://www3.cs.stonybrook.edu/~cse219/">Computer Science III</a> Teaching Assistant. Spring 2016, Fall 2016.</li>
               <li><a href="https://girlswhocode.com/">Girls Who Code</a> Teaching Assistant. June 2016-Aug 2016.</li>
               <li><a href="http://www.letsgetready.org/">Let's Get Ready</a> SAT Coach. June 2016-Aug 2016</li>
-              <li>Software Developer Intern at <a href="https://mapzen.com/blog/ladders-for-leaders/">Mapzen</a>. July 2015-Aug 2015.</li>
-              
+              <li>Software Developer Intern at <a href="https://mapzen.com/blog/ladders-for-leaders/">Mapzen</a>. July 2015-Aug 2015.</li> 
             </ul>
           </div><!-- close programming lang section-->
-          
-          <hr>
+
           <div class="col-md-4 col-xs-12">
             <h4 class="jumbotron-heading">Languages</h3>
             <ul>
