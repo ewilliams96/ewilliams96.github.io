@@ -81,7 +81,7 @@ footer p {
 }
 
 #skills {
-  background-color: #f7f7f7;
+  background-color: #fff;
     padding-top: 3rem;
   padding-bottom: 3rem;
   font-size: .8em;
@@ -92,6 +92,16 @@ footer p {
 
 }
 
+#contact {
+  background-color: #f7f7f7;
+
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+
 #skills ul{
   border-right-width: 1em;
   border-color:black;
@@ -101,6 +111,7 @@ footer p {
   display: block;
   text-align: right;
 }
+
 
 #about{
   opacity: 0;
